@@ -37,3 +37,8 @@ The designs were created to the following widths:
 
 - Family: [Rubik](https://fonts.google.com/specimen/Rubik)
 - Weights: 300, 400, 500
+
+
+### Colors 
+- profile color: #5746ea
+- card foreground: #1d204b
