@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './components/Footer';
+import UserCard from './components/UserCard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UserCard name="Nathan Yee" imgSrc='https://media-exp1.licdn.com/dms/image/C5603AQH-p0aateI48g/profile-displayphoto-shrink_200_200/0/1634922628611?e=1649894400&v=beta&t=XUS2tvofYm5dKnhq6ESRAHDcpRnxSFzrZneXDZnbSTw'/>
+      <Footer />
     </div>
   );
 }
