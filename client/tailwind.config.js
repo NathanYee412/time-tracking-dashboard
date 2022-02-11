@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       colors: {
         'profile': '#5746ea',
+        'card':'#1d204b',
+        'cardhover':'#34397b',
+        'work':'#ff8b64',
       }
     },
   },
