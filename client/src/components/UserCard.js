@@ -9,9 +9,9 @@ export default function UserCard(props) {
                 <p className="pl-10 pt-10 text-lg text-slate-300 font-light">Report For</p>
                 <h1 className="pl-10 text-6xl pt-3 text-white">{props.name}</h1>
             </div>
-            <p className="absolute text-substat bottom-0">Daily</p>
-            <p className="absolute text-substat bottom-10">Daily</p>
-            <p className="absolute text-substat bottom-5">Daily</p>
+            <p className="absolute text-substat bottom-10 pl-7 pb-9">Daily</p>
+            <p className="absolute text-substat bottom-5 pl-7 pb-6">Weekly</p>
+            <p className="absolute text-substat bottom-0 pl-7 pb-3">Monthly</p>
         </div>
     );
 }
